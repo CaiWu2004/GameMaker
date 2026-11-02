@@ -6,7 +6,7 @@ key_left = vk_left
 key_jump = vk_up
 
 
-jump_strength = 12
+jump_strength = 10
 
 
 spr_idle = Player2_Idle
