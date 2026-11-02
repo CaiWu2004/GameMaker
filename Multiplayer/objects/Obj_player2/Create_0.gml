@@ -6,7 +6,7 @@ key_left = vk_left
 key_jump = vk_up
 
 
-jump_strength = 10
+jump_strength = 11
 
 
 spr_idle = Player2_Idle
@@ -33,4 +33,7 @@ mine_hit_frame = 5
 mine_reach = 16
 //1 if the mining art faces right, -1 if it faces left
 mine_faces = 1
+
+mine_speed = 1.6
+
 

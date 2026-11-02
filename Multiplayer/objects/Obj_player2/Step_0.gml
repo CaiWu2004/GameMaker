@@ -24,27 +24,37 @@ if (!mining){
 	
 	//start a swing: Space, on the ground, not jumping, facing a direction
 	var on_floor = place_meeting(x, y + 1, Obj_wall)
-	if (keyboard_check_pressed(vk_space) && on_floor && !jumping && facing != 0){
+	if (keyboard_check_pressed(vk_space) && facing != 0){
 		mining = true
 		mine_did_hit = false
 		sprite_index = Player2_Mine
 		image_index = 0
-		image_speed = 1
+		image_speed = mine_speed
 		image_xscale = facing * mine_faces
 	}
 } else {
-	//we're mid_swing: the inherited code is skipped, so the player stands still
+	//we're mid_swing: no walking, but gravity still works, so swinging in the air doesn't freeze us
+	yspd += grav
+
+	if (place_meeting(x,y + yspd, Obj_wall)){
+		while (!place_meeting(x,y+sign(yspd), Obj_wall)){
+			y += sign(yspd)
+	}
+	yspd = 0
+} else {
+	y += yspd
+}
+
+//the moment the pickaxe lands, break the block in front of us
+if (!mine_did_hit && image_index >= mine_hit_frame){
+	mine_did_hit = true
 	
-	//the moment the pickaxe lands, break the block in front of us
-	if (!mine_did_hit && image_index >= mine_hit_frame){
-		mine_did_hit = true
-		
-		var block = noone
-		if (facing >0){
-			block = collision_rectangle(bbox_right + 1, bbox_top + 2, bbox_right + mine_reach, bbox_bottom -2, Obj_breakable, false, true)
+	var block = noone
+	if (facing > 0){
+		block = collision_rectangle(bbox_right + 1, bbox_top + 2, bbox_right + mine_reach, bbox_bottom - 2, Obj_breakable, false, true)
 		} else {
-			block = collision_rectangle(bbox_right - mine_reach, bbox_top + 2, bbox_left -1, bbox_bottom -2, Obj_breakable, false, true)
-		} 
+			block = collision_rectangle(bbox_left - mine_reach, bbox_top + 2, bbox_left - 1, bbox_bottom - 2, Obj_breakable, false, true)
+		}
 		if (block != noone){
 			with (block) instance_destroy()
 		}
