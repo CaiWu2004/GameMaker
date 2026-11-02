@@ -16,11 +16,28 @@ with (Obj_switch){
 }
 
 if (open_now){
-	visible = false
-	sprite_index = -1
-	mask_index = -1
+	//the moment it becomes open: start the animation from the first frame
+	if (!was_open){
+	sprite_index = closed_sprite
+	image_index = 0
+	image_speed = 1
+	opened= false
+	} 
+
+	if (opened){
+		visible = false
+		sprite_index = -1
+		mask_index = -1
+	}
 } else {
-	sprite_index = object_get_sprite(object_index)
+	//closed:show the door, stil, on its first frame
+	sprite_index = closed_sprite
+	image_index = 0
+	image_speed = 0
 	mask_index = -1
 	visible = true
+	opened = false
 }
+
+was_open = open_now
+
