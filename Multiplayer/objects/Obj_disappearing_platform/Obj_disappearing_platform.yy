@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"Object11",
-  "eventList":[],
+  "%Name":"Obj_disappearing_platform",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object11",
+  "name":"Obj_disappearing_platform",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
     "path":"folders/Object.yy",
   },
   "parentObjectId":{
-    "name":"Obj_door",
-    "path":"objects/Obj_door/Obj_door.yy",
+    "name":"Obj_wall",
+    "path":"objects/Obj_wall/Obj_wall.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
