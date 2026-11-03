@@ -21,7 +21,10 @@
     {"$GMFolder":"","%Name":"Switch_Btn","folderPath":"folders/Sprite/Switch_Btn.yy","name":"Switch_Btn","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"credits_Player1.txt","CopyToMask":-1,"filePath":"datafiles","name":"credits_Player1.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"credits_Player2.txt","CopyToMask":-1,"filePath":"datafiles","name":"credits_Player2.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -29,17 +32,21 @@
   },
   "name":"Multiplayer2",
   "resources":[
+    {"id":{"name":"Arial","path":"fonts/Arial/Arial.yy",},},
     {"id":{"name":"Obj_breakable","path":"objects/Obj_breakable/Obj_breakable.yy",},},
     {"id":{"name":"Obj_button_green","path":"objects/Obj_button_green/Obj_button_green.yy",},},
     {"id":{"name":"Obj_button_red","path":"objects/Obj_button_red/Obj_button_red.yy",},},
+    {"id":{"name":"Obj_Credits","path":"objects/Obj_Credits/Obj_Credits.yy",},},
     {"id":{"name":"Obj_door","path":"objects/Obj_door/Obj_door.yy",},},
     {"id":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},},
+    {"id":{"name":"Obj_manager","path":"objects/Obj_manager/Obj_manager.yy",},},
     {"id":{"name":"Obj_Player1","path":"objects/Obj_Player1/Obj_Player1.yy",},},
     {"id":{"name":"Obj_player2","path":"objects/Obj_player2/Obj_player2.yy",},},
     {"id":{"name":"Obj_slab","path":"objects/Obj_slab/Obj_slab.yy",},},
     {"id":{"name":"Obj_switch","path":"objects/Obj_switch/Obj_switch.yy",},},
     {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},},
     {"id":{"name":"Object11","path":"objects/Object11/Object11.yy",},},
+    {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"cave","path":"sprites/cave/cave.yy",},},
     {"id":{"name":"Door_Lock","path":"sprites/Door_Lock/Door_Lock.yy",},},
@@ -66,6 +73,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
