@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Script","order":4,"path":"folders/Script.yy",},
     {"name":"Object","order":2,"path":"folders/Object.yy",},
     {"name":"Room","order":1,"path":"folders/Room.yy",},
     {"name":"Sprite","order":3,"path":"folders/Sprite.yy",},
@@ -21,6 +22,7 @@
     {"name":"Obj_exit","order":5,"path":"objects/Obj_exit/Obj_exit.yy",},
     {"name":"Obj_manager","order":12,"path":"objects/Obj_manager/Obj_manager.yy",},
     {"name":"Obj_opening_platform","order":10,"path":"objects/Obj_opening_platform/Obj_opening_platform.yy",},
+    {"name":"Obj_particle","order":15,"path":"objects/Obj_particle/Obj_particle.yy",},
     {"name":"Obj_player2","order":1,"path":"objects/Obj_player2/Obj_player2.yy",},
     {"name":"Obj_slab","order":7,"path":"objects/Obj_slab/Obj_slab.yy",},
     {"name":"Obj_switch","order":4,"path":"objects/Obj_switch/Obj_switch.yy",},

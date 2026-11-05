@@ -49,14 +49,52 @@ if (!mining){
 if (!mine_did_hit && image_index >= mine_hit_frame){
 	mine_did_hit = true
 	
-	var block = noone
+	//var block = noone
+	//if (facing > 0){
+	//	block = collision_rectangle(bbox_right + 1, bbox_top + 2, bbox_right + mine_reach, bbox_bottom - 2, Obj_breakable, false, true)
+	//	} else {
+	//		block = collision_rectangle(bbox_left - mine_reach, bbox_top + 2, bbox_left - 1, bbox_bottom - 2, Obj_breakable, false, true)
+	//	}
+	//	if (block != noone){
+	//		//with (block) instance_destroy()
+	//		//burst of stone-gray squares from the middle of the block
+	//		//spawn_particles((block.bbox_left + block.bbox_right)/2, (block.bbox_top + block.bbox_bottom)/2,20, make_colour_rgb(126,126,126))
+	//		//with (block) instance_destroy()
+	//		with (block){
+	//			if (!breaking){
+	//				breaking = true
+	//				shake_time = shake_length
+	//			}
+	//		}
+	//	}
+	
+	//look ahead for breakable blocks and pick the closest one
+	var _list = ds_list_create()
+	var _count = 0
+	
 	if (facing > 0){
-		block = collision_rectangle(bbox_right + 1, bbox_top + 2, bbox_right + mine_reach, bbox_bottom - 2, Obj_breakable, false, true)
-		} else {
-			block = collision_rectangle(bbox_left - mine_reach, bbox_top + 2, bbox_left - 1, bbox_bottom - 2, Obj_breakable, false, true)
+		_count = collision_rectangle_list(bbox_right + 1, bbox_top + 2, bbox_right + mine_reach, bbox_bottom - 2, Obj_breakable, false, true, _list, true)
+	} else {
+		_count = collision_rectangle_list(bbox_left - mine_reach, bbox_top + 2, bbox_left - 1, bbox_bottom - 2, Obj_breakable, false, true, _list, true)
+	}
+	
+	var block = noone
+	if (_count > 0){
+		//the list is sorted nearest first
+		block = _list[| 0] 
+	}
+	ds_list_destroy(_list)
+	
+	if (block != noone){
+		//start the block shaking: it breaks by itself when the shake ends
+		with (block){
+			if (!breaking){
+				breaking = true
+				shake_time = shake_length
+			}
 		}
-		if (block != noone){
-			with (block) instance_destroy()
-		}
+	}
+	
+	
 	}
 }

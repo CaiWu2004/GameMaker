@@ -30,7 +30,7 @@ mine_did_hit = false
 //the frame where the pickaxe lands
 mine_hit_frame = 5
 //how far in front of the player the pickaxe reaches (pixels)
-mine_reach = 16
+mine_reach = 64
 //1 if the mining art faces right, -1 if it faces left
 mine_faces = 1
 

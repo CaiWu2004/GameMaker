@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Script","folderPath":"folders/Script.yy","name":"Script","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Object","folderPath":"folders/Object.yy","name":"Object","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Room","folderPath":"folders/Room.yy","name":"Room","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprite","folderPath":"folders/Sprite.yy","name":"Sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,6 +43,7 @@
     {"id":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},},
     {"id":{"name":"Obj_manager","path":"objects/Obj_manager/Obj_manager.yy",},},
     {"id":{"name":"Obj_opening_platform","path":"objects/Obj_opening_platform/Obj_opening_platform.yy",},},
+    {"id":{"name":"Obj_particle","path":"objects/Obj_particle/Obj_particle.yy",},},
     {"id":{"name":"Obj_Player1","path":"objects/Obj_Player1/Obj_Player1.yy",},},
     {"id":{"name":"Obj_player2","path":"objects/Obj_player2/Obj_player2.yy",},},
     {"id":{"name":"Obj_slab","path":"objects/Obj_slab/Obj_slab.yy",},},
@@ -49,6 +51,7 @@
     {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},},
     {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Juice","path":"scripts/Juice/Juice.yy",},},
     {"id":{"name":"cave","path":"sprites/cave/cave.yy",},},
     {"id":{"name":"Door_Lock","path":"sprites/Door_Lock/Door_Lock.yy",},},
     {"id":{"name":"GreenBtn","path":"sprites/GreenBtn/GreenBtn.yy",},},
