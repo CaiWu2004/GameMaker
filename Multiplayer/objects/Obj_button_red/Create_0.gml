@@ -3,3 +3,6 @@ image_index = 0 // show the first frame (the buttin "up")
 pressed = false
 
 link_id = 0
+
+//which player can press this button red == player 2
+allowed_player = Obj_player2

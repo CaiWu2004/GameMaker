@@ -13,3 +13,16 @@ if (pressed){
 	image_speed = 0
 	image_index = 0
 }
+
+//is the right player standing on the button?
+pressed = false
+var _list = ds_list_create()
+var _count = collision_rectangle_list(bbox_left, bbox_top, bbox_right, bbox_bottom, Obj_Player1, false, true, _list, false)
+for (var i = 0; i < _count; i++){
+	//only count the player this button belongs to
+	if (_list[| i].object_index == allowed_player){
+		pressed = true
+	}
+}
+
+ds_list_destroy(_list)

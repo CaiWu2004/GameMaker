@@ -1,3 +1,4 @@
+
 //Read the keys. Each check gives a 1 if key is down, 0 if not
 var right = keyboard_check(key_right)
 var left = keyboard_check(key_left)
@@ -29,12 +30,7 @@ if (!place_meeting(x + xspd , y, Obj_wall)){
 //are we standing on something
 var grounded = place_meeting(x, y+1, Obj_wall)
 
-//jump only if the key was pressed and we're not grounded
-//if (grounded){
-//	if (keyboard_check(vk_space)){
-//		yspd = -jump_strength
-//	}
-//}
+
 if (grounded){
 	if (keyboard_check(key_jump)){
 		yspd = -jump_strength
@@ -53,13 +49,6 @@ if (grounded){
 				image_index = 0
 				image_speed = 1
 				sprite_index = spr_jump
-				//if (jump_dir > 0){
-				//	image_xscale = art_faces
-				//	sprite_index = spr_jump
-				//} else {
-				//	image_xscale = -art_faces
-				//	sprite_index = spr_jump
-				//}
 			}
 		
 		}
@@ -74,10 +63,26 @@ if (place_meeting(x,y+yspd, Obj_wall)){
 	while (!place_meeting(x,y+sign(yspd), Obj_wall)){
 		y += sign(yspd)
 	}
+	//if we were falling (landing one a floor), settle on a whole pixel
+	if (yspd > 0){
+		y = floor(y)
+	}
 	yspd = 0
 } else {
 	y += yspd
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 //jump animation
 if (jump_animation){
@@ -121,4 +126,5 @@ if (jump_animation){
 		image_xscale = facing * face_sign
 	}
 }
+
  
