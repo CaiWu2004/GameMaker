@@ -31,6 +31,7 @@
     {"name":"Obj_wall","order":2,"path":"objects/Obj_wall/Obj_wall.yy",},
     {"name":"Credits","order":1,"path":"rooms/Credits/Credits.yy",},
     {"name":"Home","order":2,"path":"rooms/Home/Home.yy",},
+    {"name":"Room2","order":3,"path":"rooms/Room2/Room2.yy",},
     {"name":"Leaver_off","order":3,"path":"sprites/Leaver_off/Leaver_off.yy",},
     {"name":"Leaver_on","order":2,"path":"sprites/Leaver_on/Leaver_on.yy",},
     {"name":"Opening_Door","order":2,"path":"sprites/Opening_Door/Opening_Door.yy",},

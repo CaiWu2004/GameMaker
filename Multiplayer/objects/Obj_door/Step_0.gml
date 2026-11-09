@@ -41,3 +41,34 @@ if (open_now){
 
 was_open = open_now
 
+//if a player ends up inside the closed door, push them out to the left or right
+//(object_index check: Obj_opening_platform inherits this event and pushes up/down instead)
+if (object_index == Obj_door && sprite_index != -1){
+	with (Obj_Player1){
+		if (place_meeting(x, y, other)){
+			var _door_mid = (other.bbox_left + other.bbox_right) / 2
+			var _my_mid = (bbox_left + bbox_right) / 2
+
+			//where the player would stand if pushed to the left, or to the right
+			var _left_x = x + (other.bbox_left - 1 - bbox_right)
+			var _right_x = x + (other.bbox_right + 1 - bbox_left)
+
+			//go to the nearer side
+			var _go_left = (_my_mid < _door_mid)
+
+			//but not into another wall: use the other side if the nearer one is blocked
+			if (_go_left && place_meeting(_left_x, y, Obj_wall)){
+				_go_left = false
+			} else if (!_go_left && place_meeting(_right_x, y, Obj_wall)){
+				_go_left = true
+			}
+
+			if (_go_left){
+				x = _left_x
+			} else {
+				x = _right_x
+			}
+		}
+	}
+}
+
