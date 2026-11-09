@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Obj_exit",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Obj_exit",
   "overriddenProperties":[],
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Door_Lock",
-    "path":"sprites/Door_Lock/Door_Lock.yy",
+    "name":"UnLocked_Door",
+    "path":"sprites/UnLocked_Door/UnLocked_Door.yy",
   },
   "spriteMaskId":null,
   "visible":true,
