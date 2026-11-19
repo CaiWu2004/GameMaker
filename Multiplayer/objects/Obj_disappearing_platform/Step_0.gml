@@ -1,35 +1,77 @@
-on = false
+//on = false
 
-//any button with the same link number that is pressed
-with (Obj_button_red){
-	if (link_id != 0 && link_id == other.link_id && pressed){
-		other.on = true
-	}
+////any button with the same link number that is pressed
+//with (Obj_button_red){
+//	if (link_id != 0 && link_id == other.link_id && pressed){
+//		other.on = true
+//	}
+//}
+
+////any lever with the same link number that is switched on
+//with (Obj_switch){
+//	if (link_id != 0 && link_id == other.link_id && activated){
+//		other.on = true
+//	}
+//}
+
+//if (on && !was_on){
+//	//just turned on: appear, playing backwards (last frame to frame 0)
+//	if (sprite_index == -1){
+//		sprite_index = closed_sprite
+//		image_index = image_number - 1
+//	}
+//	visible = true
+//	image_speed = -1
+//} else if (!on && was_on){
+//	//just turned off: play forwards (frame 0 to last frame), then disappear
+//	if (sprite_index == -1){
+//		sprite_index = closed_sprite
+//		image_index = 0
+//	}
+//	visible = true
+//	image_speed = 1
+//}
+
+//was_on = on
+on = false;
+
+with (Obj_button_red) {
+    if (link_id != 0 && link_id == other.link_id && pressed) {
+        other.on = true;
+    }
 }
 
-//any lever with the same link number that is switched on
-with (Obj_switch){
-	if (link_id != 0 && link_id == other.link_id && activated){
-		other.on = true
-	}
+with (Obj_switch) {
+    if (link_id != 0 && link_id == other.link_id && activated) {
+        other.on = true;
+    }
 }
 
-if (on && !was_on){
-	//just turned on: appear, playing backwards (last frame to frame 0)
-	if (sprite_index == -1){
-		sprite_index = closed_sprite
-		image_index = image_number - 1
-	}
-	visible = true
-	image_speed = -1
-} else if (!on && was_on){
-	//just turned off: play forwards (frame 0 to last frame), then disappear
-	if (sprite_index == -1){
-		sprite_index = closed_sprite
-		image_index = 0
-	}
-	visible = true
-	image_speed = 1
+if (on && !was_on) {
+    if (sprite_index == -1) {
+        sprite_index = closed_sprite;
+        image_index = image_number - 1;
+    }
+    visible = true;
+} else if (!on && was_on) {
+    if (sprite_index == -1) {
+        sprite_index = closed_sprite;
+        image_index = 0;
+    }
+    visible = true;
 }
 
-was_on = on
+if (on) {
+    if (sprite_index != -1) {
+        image_index = max(0, image_index - platform_animation_speed);
+    }
+} else if (sprite_index != -1) {
+    image_index = min(image_number - 1, image_index + platform_animation_speed);
+    if (image_index >= image_number - 1) {
+        image_speed = 0;
+        visible = false;
+        sprite_index = -1;
+    }
+}
+
+was_on = on;

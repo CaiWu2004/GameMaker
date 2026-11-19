@@ -28,7 +28,10 @@ mining = false
 //has this swing already hit
 mine_did_hit = false
 //the frame where the pickaxe lands
-mine_hit_frame = 5
+//mine_hit_frame = 5
+mine_hit_frame = 3
+//Last active frame of the pickaxe swing
+mine_hit_end_frame = 9 
 //how far in front of the player the pickaxe reaches (pixels)
 mine_reach = 64
 //1 if the mining art faces right, -1 if it faces left

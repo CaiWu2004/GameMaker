@@ -40,5 +40,5 @@ draw_set_alpha(0.7)
 draw_rectangle(0, _gh - 28, _gw, _gh, false)
 draw_set_alpha(1)
 draw_set_color(c_ltgray)
-draw_text(_margin, _gh - 24, "Up/Down or mouse wheel to scroll");
+draw_text(_margin, _gh - 24, "Up/Down or mouse wheel to scroll     SPACE - back to Home");
 draw_set_color(c_white);

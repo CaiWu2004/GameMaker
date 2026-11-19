@@ -46,8 +46,9 @@ if (!mining){
 }
 
 //the moment the pickaxe lands, break the block in front of us
-if (!mine_did_hit && image_index >= mine_hit_frame){
-	mine_did_hit = true
+//if (!mine_did_hit && image_index >= mine_hit_frame){
+//	mine_did_hit = true
+if (image_index >= mine_hit_frame && image_index <= mine_hit_end_frame){
 	
 	//var block = noone
 	//if (facing > 0){

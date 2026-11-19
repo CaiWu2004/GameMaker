@@ -26,3 +26,6 @@ art_faces = 1    // 1 if the artwork faces right, -1 if it faces left
 jump_faces = 1    // which way the JUMP art faces: 1 = right, -1 = left
 
 idle_faces = 1 //which way the IDLE art faces: 1 = right, -1 = left
+
+// Draw both players in front of the exit door. Player 2 inherits this Create event.
+depth = -10000;

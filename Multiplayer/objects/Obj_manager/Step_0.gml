@@ -7,6 +7,13 @@ if (room == Home){
 	}
 }
 
+//on the Credits screen, Space goes back to Home
+if (room == Credits){
+	if (keyboard_check_pressed(vk_space)){
+		room_goto(Home)
+	}
+}
+
 for (var i = 1; i <= 6; i++){
 	if (keyboard_check_pressed(ord(string(i)))){
 		_target = asset_get_index("Room" + string(i))

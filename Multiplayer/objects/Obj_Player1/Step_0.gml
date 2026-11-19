@@ -127,4 +127,3 @@ if (jump_animation){
 	}
 }
 
- 
