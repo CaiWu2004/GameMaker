@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Red_Mailbox",
+  "%Name":"Obj_White_Car",
   "eventList":[],
   "managed":true,
-  "name":"Obj_Red_Mailbox",
+  "name":"Obj_White_Car",
   "overriddenProperties":[],
   "parent":{
     "name":"CityStreet",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"RedMailBox",
-    "path":"sprites/RedMailBox/RedMailBox.yy",
+    "name":"car_white_vertical_01",
+    "path":"sprites/car_white_vertical_01/car_white_vertical_01.yy",
   },
   "spriteMaskId":null,
   "visible":true,
