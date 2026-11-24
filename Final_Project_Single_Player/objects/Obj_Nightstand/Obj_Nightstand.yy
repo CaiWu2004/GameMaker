@@ -6,8 +6,8 @@
   "name":"Obj_Nightstand",
   "overriddenProperties":[],
   "parent":{
-    "name":"InsideHouse",
-    "path":"folders/Object/InsideHouse.yy",
+    "name":"Bedroom",
+    "path":"folders/Object/InsideHouse/Bedroom.yy",
   },
   "parentObjectId":null,
   "persistent":false,
