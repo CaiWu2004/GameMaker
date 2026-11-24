@@ -85,6 +85,7 @@
     {"name":"inst_798B9101","path":"rooms/Street/Street.yy",},
     {"name":"inst_60F84978","path":"rooms/Street/Street.yy",},
     {"name":"inst_749CB406","path":"rooms/Street/Street.yy",},
+    {"name":"inst_1524D9E6","path":"rooms/Street/Street.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -168,6 +169,7 @@
         {"$GMRInstance":"v4","%Name":"inst_798B9101","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_798B9101","objectId":{"name":"Obj_Silver_Car","path":"objects/Obj_Silver_Car/Obj_Silver_Car.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":1334.0,"y":832.0,},
         {"$GMRInstance":"v4","%Name":"inst_60F84978","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60F84978","objectId":{"name":"Obj_White_Car","path":"objects/Obj_White_Car/Obj_White_Car.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":1209.0,},
         {"$GMRInstance":"v4","%Name":"inst_749CB406","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_749CB406","objectId":{"name":"Obj_Greem_Car","path":"objects/Obj_Greem_Car/Obj_Greem_Car.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":1792.0,"y":1135.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1524D9E6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1524D9E6","objectId":{"name":"Player","path":"objects/Player/Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":928.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"CityStreet","path":"sprites/CityStreet/CityStreet.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
