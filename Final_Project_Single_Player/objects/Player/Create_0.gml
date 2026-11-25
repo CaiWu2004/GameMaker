@@ -31,3 +31,12 @@ is_blocked = function(_nx, _ny){
     || collision_rectangle(_x1, _y1, _x2, _y2, Obj_Lock,  true, true) != noone
 	|| collision_rectangle(_x1, _y1, _x2, _y2, Obj_Solid, false, true) != noone;
 }
+
+//If we came through a door, appear at that door's spawn point
+if (variable_global_exists("spawn_x")&& global.spawn_x != undefined){
+	x = global.spawn_x 
+	y = global.spawn_y
+	//only use it once
+	global.spawn_x = undefined
+}
+near_door = noone

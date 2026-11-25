@@ -6,8 +6,8 @@
   "name":"Obj_Bush",
   "overriddenProperties":[],
   "parent":{
-    "name":"CityStreet",
-    "path":"folders/Object/CityStreet.yy",
+    "name":"Plantes",
+    "path":"folders/Object/CityStreet/Plantes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

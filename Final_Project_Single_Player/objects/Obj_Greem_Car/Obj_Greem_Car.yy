@@ -6,10 +6,13 @@
   "name":"Obj_Greem_Car",
   "overriddenProperties":[],
   "parent":{
-    "name":"CityStreet",
-    "path":"folders/Object/CityStreet.yy",
+    "name":"Car",
+    "path":"folders/Object/CityStreet/Car.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Solid",
+    "path":"objects/Obj_Solid/Obj_Solid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

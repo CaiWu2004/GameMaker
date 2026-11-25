@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"BusStop",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":123,
   "bbox_left":0,
   "bbox_right":167,
-  "bbox_top":0,
+  "bbox_top":84,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

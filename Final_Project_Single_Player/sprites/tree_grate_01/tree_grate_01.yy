@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"tree_grate_01",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":19,
   "bbox_left":0,
   "bbox_right":43,

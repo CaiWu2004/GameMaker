@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"WoodenBench",
-  "bboxMode":0,
-  "bbox_bottom":31,
+  "bboxMode":2,
+  "bbox_bottom":23,
   "bbox_left":0,
-  "bbox_right":83,
+  "bbox_right":79,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

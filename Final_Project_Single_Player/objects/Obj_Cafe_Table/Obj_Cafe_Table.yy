@@ -9,7 +9,10 @@
     "name":"CityStreet",
     "path":"folders/Object/CityStreet.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Solid",
+    "path":"objects/Obj_Solid/Obj_Solid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"car_blue_vertical_01",
-  "bboxMode":0,
-  "bbox_bottom":111,
+  "bboxMode":2,
+  "bbox_bottom":104,
   "bbox_left":0,
-  "bbox_right":59,
+  "bbox_right":61,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
