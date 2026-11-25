@@ -47,10 +47,10 @@ y = clamp(y, target_size, room_height)
 depth = -y;
 
 //standing at a door? Press F to go through it 
-near_door = instance_place(x,y,Obj_Door)
-if (near_door != noone && keyboard_check_pressed(ord("F")))
-{
-	global.spawn_x = near_door.spawn_x
-	global.spawn_y = near_door.spawn_y
-	room_goto(near_door.target_room)
-}
+//near_door = instance_place(x,y,Obj_Door)
+//if (near_door != noone && keyboard_check_pressed(ord("F")))
+//{
+//	global.spawn_x = near_door.spawn_x
+//	global.spawn_y = near_door.spawn_y
+//	room_goto(near_door.target_room)
+//}

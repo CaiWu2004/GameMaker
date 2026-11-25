@@ -39,4 +39,4 @@ if (variable_global_exists("spawn_x")&& global.spawn_x != undefined){
 	//only use it once
 	global.spawn_x = undefined
 }
-near_door = noone
+//near_door = noone
