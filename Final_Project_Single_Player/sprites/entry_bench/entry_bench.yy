@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"entry_bench",
-  "bboxMode":0,
-  "bbox_bottom":163,
+  "bboxMode":2,
+  "bbox_bottom":155,
   "bbox_left":0,
-  "bbox_right":43,
+  "bbox_right":39,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

@@ -6,8 +6,8 @@
   "name":"Obj_Invisible_Wall_Street",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Boundaries",
+    "path":"folders/Object/Boundaries.yy",
   },
   "parentObjectId":{
     "name":"Obj_Walls",

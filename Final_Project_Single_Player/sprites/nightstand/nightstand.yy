@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"nightstand",
-  "bboxMode":0,
-  "bbox_bottom":51,
+  "bboxMode":2,
+  "bbox_bottom":43,
   "bbox_left":0,
-  "bbox_right":43,
+  "bbox_right":39,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

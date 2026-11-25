@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"wall_bookshelf",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":51,
   "bbox_left":0,
   "bbox_right":175,

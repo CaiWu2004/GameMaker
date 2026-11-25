@@ -28,5 +28,6 @@ is_blocked = function(_nx, _ny){
 	var _x1 = _nx - _hw, _x2 = _nx + _hw
 	var _y1 = _ny - _fh, _y2 = _ny - 1;
     return collision_rectangle(_x1, _y1, _x2, _y2, Obj_Walls, true, true) != noone
-    || collision_rectangle(_x1, _y1, _x2, _y2, Obj_Lock,  true, true) != noone;
+    || collision_rectangle(_x1, _y1, _x2, _y2, Obj_Lock,  true, true) != noone
+	|| collision_rectangle(_x1, _y1, _x2, _y2, Obj_Solid, false, true) != noone;
 }

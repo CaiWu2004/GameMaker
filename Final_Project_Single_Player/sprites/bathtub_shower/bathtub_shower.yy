@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"bathtub_shower",
-  "bboxMode":0,
-  "bbox_bottom":231,
+  "bboxMode":2,
+  "bbox_bottom":223,
   "bbox_left":0,
-  "bbox_right":103,
+  "bbox_right":99,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

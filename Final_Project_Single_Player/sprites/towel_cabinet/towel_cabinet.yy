@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"towel_cabinet",
-  "bboxMode":0,
-  "bbox_bottom":123,
+  "bboxMode":2,
+  "bbox_bottom":115,
   "bbox_left":0,
-  "bbox_right":43,
+  "bbox_right":39,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

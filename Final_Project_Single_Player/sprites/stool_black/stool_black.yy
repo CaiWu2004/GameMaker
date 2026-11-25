@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"stool_black",
-  "bboxMode":0,
-  "bbox_bottom":35,
+  "bboxMode":2,
+  "bbox_bottom":27,
   "bbox_left":0,
-  "bbox_right":35,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

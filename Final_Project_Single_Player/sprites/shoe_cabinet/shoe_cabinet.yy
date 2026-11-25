@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"shoe_cabinet",
-  "bboxMode":0,
-  "bbox_bottom":179,
+  "bboxMode":2,
+  "bbox_bottom":172,
   "bbox_left":0,
-  "bbox_right":51,
+  "bbox_right":47,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

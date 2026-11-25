@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"kitchen_counter_sink_stove",
-  "bboxMode":0,
-  "bbox_bottom":59,
+  "bboxMode":2,
+  "bbox_bottom":52,
   "bbox_left":0,
-  "bbox_right":363,
+  "bbox_right":360,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"bed_single",
-  "bboxMode":0,
-  "bbox_bottom":223,
+  "bboxMode":2,
+  "bbox_bottom":211,
   "bbox_left":0,
-  "bbox_right":99,
+  "bbox_right":95,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

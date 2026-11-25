@@ -9,7 +9,10 @@
     "name":"Bathroom",
     "path":"folders/Object/InsideHouse/Bathroom.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Solid",
+    "path":"objects/Obj_Solid/Obj_Solid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

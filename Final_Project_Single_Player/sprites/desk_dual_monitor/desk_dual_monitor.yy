@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"desk_dual_monitor",
-  "bboxMode":0,
-  "bbox_bottom":67,
+  "bboxMode":2,
+  "bbox_bottom":59,
   "bbox_left":0,
-  "bbox_right":187,
+  "bbox_right":183,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

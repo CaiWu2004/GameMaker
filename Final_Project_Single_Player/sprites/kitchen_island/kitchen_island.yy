@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"kitchen_island",
-  "bboxMode":0,
-  "bbox_bottom":79,
+  "bboxMode":2,
+  "bbox_bottom":71,
   "bbox_left":0,
-  "bbox_right":227,
+  "bbox_right":223,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

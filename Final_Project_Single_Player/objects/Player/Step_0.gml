@@ -43,3 +43,5 @@ image_index = 0
 var _half = target_size / 2
 x = clamp(x, _half, room_width - _half)
 y = clamp(y, target_size, room_height)
+
+depth = -y;

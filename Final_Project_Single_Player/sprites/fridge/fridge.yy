@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"fridge",
-  "bboxMode":0,
-  "bbox_bottom":119,
+  "bboxMode":2,
+  "bbox_bottom":112,
   "bbox_left":0,
-  "bbox_right":75,
+  "bbox_right":71,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

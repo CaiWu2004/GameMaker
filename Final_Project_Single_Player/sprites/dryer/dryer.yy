@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"dryer",
-  "bboxMode":0,
-  "bbox_bottom":95,
+  "bboxMode":2,
+  "bbox_bottom":87,
   "bbox_left":0,
-  "bbox_right":91,
+  "bbox_right":87,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

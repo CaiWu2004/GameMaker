@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"desk_kids",
-  "bboxMode":0,
-  "bbox_bottom":47,
+  "bboxMode":2,
+  "bbox_bottom":39,
   "bbox_left":0,
-  "bbox_right":131,
+  "bbox_right":127,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
